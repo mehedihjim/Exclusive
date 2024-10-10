@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 const RootLayout = () => {
     return (
         <div>
-            <div className="sticky top-0">
+            <div className="sticky top-0 z-50">
                 <TopBar />
                 <Navbar />
             </div>

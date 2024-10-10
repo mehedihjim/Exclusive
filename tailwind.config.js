@@ -9,6 +9,10 @@ export default {
       maxWidth: {
         'container': '1170px',
       },
+      colors: {
+        'secondary': '#363738',
+        'secondary': '#DB4444',
+      },
     },
   },
   plugins: [],
