@@ -35,7 +35,7 @@ export const featuresProduct = [
         price: '$160',
         discountPrice: '$120',
         discountPercent: '40%',
-        totalReviews: '98'
+        totalReviews: '(98)'
     },
     {
         image: product,
@@ -43,7 +43,7 @@ export const featuresProduct = [
         price: '$160',
         discountPrice: '$120',
         discountPercent: '40%',
-        totalReviews: '98'
+        totalReviews: '(98)'
     },
     {
         image: product,
@@ -51,7 +51,7 @@ export const featuresProduct = [
         price: '$160',
         discountPrice: '$120',
         discountPercent: '40%',
-        totalReviews: '98'
+        totalReviews: '(98)'
     },
     {
         image: product,
@@ -59,6 +59,6 @@ export const featuresProduct = [
         price: '$160',
         discountPrice: '$120',
         discountPercent: '40%',
-        totalReviews: '98'
+        totalReviews: '(98)'
     },
 ];
