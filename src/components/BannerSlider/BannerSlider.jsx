@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import React from "react";
 import Slider from "react-slick";
 import './BannerSlider.css'
-import { bannerData } from '../constant/assets'
+import { bannerData } from '../../constant/assets'
 import { Link } from "react-router-dom";
 
 const BannerSlider = () => {
@@ -17,7 +17,7 @@ const BannerSlider = () => {
         arrows: false,
         autoplay: true,
         speed: 1000,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 5000,
         appendDots: dots => (
             <div
                 style={{

@@ -1,12 +1,12 @@
 import React from 'react'
-import BannerSlider from '../components/BannerSlider'
-import Features from '../components/Features'
+import BannerSlider from '../components/BannerSlider/BannerSlider'
+import Todays from '../components/Todays'
 
 const Home = () => {
     return (
         <div>
             <BannerSlider />
-            <Features />
+            <Todays />
         </div>
     )
 }

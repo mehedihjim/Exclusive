@@ -14,7 +14,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="sticky top-0 z-50 pt-[40px] pb-[15px] backdrop-blur-lg border-b border-slate-300">
+        <nav className="sticky top-0 z-50 pt-[40px] pb-[15px] bg-white border-b border-slate-300">
             <div className="max-w-container px-4 mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     <div id='logo-img' className="flex items-center flex-shrink-0">
