@@ -1,4 +1,4 @@
-import banner from '../assets/Banner.jpg'
+import banner from '../assets/Frame 560.png'
 import product from '../assets/Product.png'
 
 export const bannerData = [
@@ -35,7 +35,7 @@ export const featuresProduct = [
         price: '$160',
         discountPrice: '$120',
         discountPercent: '40%',
-        totalReviews: '(98)'
+        totalReviews: '(98)',
     },
     {
         image: product,
@@ -48,6 +48,70 @@ export const featuresProduct = [
     {
         image: product,
         name: "IPS LCD Gaming Monitor",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)'
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)'
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)'
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)'
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)'
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)'
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)'
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)'
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
         price: '$160',
         discountPrice: '$120',
         discountPercent: '40%',

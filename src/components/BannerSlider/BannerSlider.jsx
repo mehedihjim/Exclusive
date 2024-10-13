@@ -42,16 +42,14 @@ const BannerSlider = () => {
     };
 
     return (
-        <section className='pt-[40px] pb-[140px] w-full'>
-            <div className="max-w-container mx-auto slider-container">
-                <Slider {...settings}>
-                    {bannerData.map((item, index) => (
-                        <div className="w-full h-[344px]">
-                            <Link to={item.link}><img src={item.image} alt="" /></Link>
-                        </div>
-                    ))}
-                </Slider>
-            </div >
+        <section className='pt-[40px] w-[892px] h-[344px]'>
+            <Slider {...settings}>
+                {bannerData.map((item, index) => (
+                    <div className="w-full h-[344px]">
+                        <Link to={item.link}><img src={item.image} alt="" /></Link>
+                    </div>
+                ))}
+            </Slider>
         </section >
     )
 }

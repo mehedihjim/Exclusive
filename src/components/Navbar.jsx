@@ -4,6 +4,8 @@ import { CgMenuLeft, CgMenuLeftAlt } from "react-icons/cg";
 import { Link, NavLink } from 'react-router-dom';
 import { CiSearch } from 'react-icons/ci';
 import { IoCartOutline } from 'react-icons/io5';
+import { IoIosHeartEmpty } from "react-icons/io";
+import { BsPerson } from "react-icons/bs";
 
 const Navbar = () => {
 
@@ -12,6 +14,8 @@ const Navbar = () => {
     const toggleNavbar = () => {
         setMobileDrawerOpen(!mobileDrawerOpen);
     };
+
+    const [profileSettings, setProfileSettings] = useState(false)
 
     return (
         <nav className="sticky top-0 z-50 pt-[40px] pb-[15px] bg-white border-b border-slate-300">
@@ -39,9 +43,27 @@ const Navbar = () => {
                             <input className='w-full h-full bg-[#F5F5F5] text-[12px] py-[7px] pl-[20px] pr-[12px] rounded-[4px]' type="text" placeholder='What are you looking for?' />
                             <CiSearch className='text-2xl absolute right-[7px] top-[50%] -translate-y-[50%]' />
                         </div>
-                        <Link to='cart' className='my-auto text-[32px]'>
-                            <IoCartOutline />
-                        </Link>
+                        <div className="flex gap-4">
+                            <NavLink to='wishlist' className='my-auto text-[26px]'>
+                                <IoIosHeartEmpty />
+                            </NavLink>
+                            <NavLink to='cart' className='my-auto text-[26px] relative'>
+                                <IoCartOutline />
+                                <div className="absolute top-[-4px] right-[-4px] w-4 h-4 rounded-full bg-secondary text-xs flex justify-center items-center text-white">2</div>
+                            </NavLink>
+                            <NavLink onClick={() => setProfileSettings(!profileSettings)} className='relative my-auto text-[22px] w-8 h-8 rounded-full bg-secondary text-white flex justify-center items-center'>
+                                <BsPerson />
+                                {profileSettings &&
+                                    <ul className="absolute right-0 bottom-[-190px] bg-black/80 text-[#FAFAFA] pt-[18px] pr-[12px] pb-[10px] pl-[20px] w-[214px] text-sm leading-[21px] rounded-[4px] border border-slate-300 flex flex-col gap-[13px]">
+                                        <li><Link>Manage My Account</Link></li>
+                                        <li><Link>My Order</Link></li>
+                                        <li><Link>My Cancellations</Link></li>
+                                        <li><Link>My Reviews</Link></li>
+                                        <li><Link>Logout</Link></li>
+                                    </ul>
+                                }
+                            </NavLink>
+                        </div>
                     </div>
                     <div id='mobile-menu' className="lg:hidden md:flex flex-col justify-end text-[28px]">
                         <button onClick={toggleNavbar}>
@@ -65,14 +87,32 @@ const Navbar = () => {
                                 isActive ? "font-semibold" : isActive ? "active" : ""
                             }>Sign Up</NavLink></li>
                         </ul>
-                        <div className="flex justify-center space-x-6">
-                            <div className="sm:w-[224px] w-[243px] h-[38px] relative">
+                        <div className="flex space-x-6">
+                            <div className="sm:w-[214px] w-[243px] h-[38px] relative">
                                 <input className='w-full h-full bg-[#F5F5F5] text-[12px] py-[7px] pl-[20px] pr-[12px] rounded-[4px]' type="text" placeholder='What are you looking for?' />
                                 <CiSearch className='text-2xl absolute right-[7px] top-[50%] -translate-y-[50%]' />
                             </div>
-                            <Link to='cart' className='my-auto text-[32px]'>
-                                <IoCartOutline />
-                            </Link>
+                            <div className="flex gap-3">
+                                <NavLink to='wishlist' className='my-auto text-[26px]'>
+                                    <IoIosHeartEmpty />
+                                </NavLink>
+                                <NavLink to='cart' className='my-auto text-[26px] relative'>
+                                    <IoCartOutline />
+                                    <div className="absolute top-[-4px] right-[-4px] w-4 h-4 rounded-full bg-secondary text-xs flex justify-center items-center text-white">2</div>
+                                </NavLink>
+                                <NavLink onClick={() => setProfileSettings(!profileSettings)} className='relative my-auto text-[22px] w-8 h-8 rounded-full bg-secondary text-white flex justify-center items-center'>
+                                    <BsPerson />
+                                    {profileSettings &&
+                                        <ul className="absolute right-0 top-[-190px] bg-black/80 text-[#FAFAFA] pt-[18px] pr-[12px] pb-[10px] pl-[20px] w-[214px] text-sm leading-[21px] rounded-[4px] border border-slate-300 flex flex-col gap-[13px]">
+                                            <li><Link>Manage My Account</Link></li>
+                                            <li><Link>My Order</Link></li>
+                                            <li><Link>My Cancellations</Link></li>
+                                            <li><Link>My Reviews</Link></li>
+                                            <li><Link>Logout</Link></li>
+                                        </ul>
+                                    }
+                                </NavLink>
+                            </div>
                         </div>
                     </div>
                 )}
