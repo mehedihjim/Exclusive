@@ -6,6 +6,7 @@ import GooglePlay from '../assets/GooglePlay.png'
 import AppStore from '../assets/AppStore.png'
 import { AiOutlineSend } from "react-icons/ai";
 import { RiFacebookLine, RiTwitterLine, RiInstagramLine, RiLinkedinLine } from "react-icons/ri";
+import { FaRegCopyright } from "react-icons/fa";
 import Mailto from "react-mailto-link";
 
 const Footer = () => {
@@ -82,6 +83,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <p className='text-white/30 pt-4 border-t border-slate-900 flex gap-[6px] mt-[76px] justify-center'><FaRegCopyright className='my-auto' /> Copyright Rimel 2022. All right reserved</p>
         </footer>
     )
 }
