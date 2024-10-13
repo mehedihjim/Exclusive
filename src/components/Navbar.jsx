@@ -100,7 +100,9 @@ const Navbar = () => {
                                     <IoCartOutline />
                                     <div className="absolute top-[-4px] right-[-4px] w-4 h-4 rounded-full bg-secondary text-xs flex justify-center items-center text-white">2</div>
                                 </NavLink>
-                                <NavLink onClick={() => setProfileSettings(!profileSettings)} className='relative my-auto text-[22px] w-8 h-8 rounded-full bg-secondary text-white flex justify-center items-center'>
+                                <NavLink onClick={() => setProfileSettings(!profileSettings)} className='relative my-auto text-[22px] w-8 h-8 rounded-full bg-secondary text-white flex justify-center items-center' className={({ profileSettings }) =>
+                                    profileSettings ? "bg-transparent" : profileSettings ? "active" : ""
+                                } >
                                     <BsPerson />
                                     {profileSettings &&
                                         <ul className="absolute right-0 top-[-190px] bg-black/80 text-[#FAFAFA] pt-[18px] pr-[12px] pb-[10px] pl-[20px] w-[214px] text-sm leading-[21px] rounded-[4px] border border-slate-300 flex flex-col gap-[13px]">
