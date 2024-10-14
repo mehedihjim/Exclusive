@@ -88,7 +88,7 @@ const Navbar = () => {
                                 isActive ? "font-semibold" : isActive ? "active" : ""
                             }>Sign Up</NavLink></li>
                         </ul>
-                        <div className="flex space-x-6">
+                        <div className="flex flex-col gap-4">
                             <div className="sm:w-[214px] w-[243px] h-[38px] relative">
                                 <input className='w-full h-full bg-[#F5F5F5] text-[12px] py-[7px] pl-[20px] pr-[12px] rounded-[4px]' type="text" placeholder='What are you looking for?' />
                                 <CiSearch className='text-2xl absolute right-[7px] top-[50%] -translate-y-[50%]' />

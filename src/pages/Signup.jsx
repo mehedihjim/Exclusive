@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import SignUp from '../assets/Sign.png';
 import { FcGoogle } from "react-icons/fc";
 
@@ -18,7 +19,7 @@ const Signup = () => {
                         <input type="email" placeholder='Email or Phone Number' className='w-full outline-none text-base font-normal leading-6 border-b border-slate-300 pb-2' />
                         <input type="password" placeholder='Password' className='w-full outline-none text-base font-normal leading-6 border-b border-slate-300 pb-2' />
                     </div>
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-4 mb-8">
                         <button className='w-full py-[15px] border border-secondary font-medium text-base text-white leading-6 rounded-[4px] bg-secondary hover:bg-transparent hover:text-secondary duration-300 hover:shadow-md'>
                             Create Account
                         </button>
@@ -26,6 +27,7 @@ const Signup = () => {
                             <FcGoogle className='my-auto text-2xl' />Sign up with Google
                         </button>
                     </div>
+                    <p className='text-center'>Already have account? <Link to='/login' className='border-b border-slate-300'>Login</Link></p>
                 </div>
             </div>
         </div>
