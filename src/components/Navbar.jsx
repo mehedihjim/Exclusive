@@ -18,7 +18,7 @@ const Navbar = () => {
     const [profileSettings, setProfileSettings] = useState(false)
 
     return (
-        <nav className="sticky top-0 z-50 pt-[40px] pb-[15px] bg-white border-b border-slate-300">
+        <nav className="sticky top-0 z-50 pt-[21px] md:pt-[40px] pb-[15px] bg-white border-b border-slate-300">
             <div className="max-w-container px-4 mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     <div id='logo-img' className="flex items-center flex-shrink-0">
@@ -51,7 +51,8 @@ const Navbar = () => {
                                 <IoCartOutline />
                                 <div className="absolute top-[-4px] right-[-4px] w-4 h-4 rounded-full bg-secondary text-xs flex justify-center items-center text-white">2</div>
                             </NavLink>
-                            <NavLink onClick={() => setProfileSettings(!profileSettings)} className='relative my-auto text-[22px] w-8 h-8 rounded-full bg-secondary text-white flex justify-center items-center'>
+                            <div onClick={() => setProfileSettings(!profileSettings)} className={`cursor-pointer relative my-auto text-[22px] w-8 h-8 rounded-full ${profileSettings ? 'bg-secondary text-white' : 'bg-transparent text-black'
+                                } flex justify-center items-center`}>
                                 <BsPerson />
                                 {profileSettings &&
                                     <ul className="absolute right-0 bottom-[-190px] bg-black/80 text-[#FAFAFA] pt-[18px] pr-[12px] pb-[10px] pl-[20px] w-[214px] text-sm leading-[21px] rounded-[4px] border border-slate-300 flex flex-col gap-[13px]">
@@ -62,7 +63,7 @@ const Navbar = () => {
                                         <li><Link>Logout</Link></li>
                                     </ul>
                                 }
-                            </NavLink>
+                            </div>
                         </div>
                     </div>
                     <div id='mobile-menu' className="lg:hidden md:flex flex-col justify-end text-[28px]">
@@ -100,9 +101,8 @@ const Navbar = () => {
                                     <IoCartOutline />
                                     <div className="absolute top-[-4px] right-[-4px] w-4 h-4 rounded-full bg-secondary text-xs flex justify-center items-center text-white">2</div>
                                 </NavLink>
-                                <NavLink onClick={() => setProfileSettings(!profileSettings)} className='relative my-auto text-[22px] w-8 h-8 rounded-full bg-secondary text-white flex justify-center items-center' className={({ profileSettings }) =>
-                                    profileSettings ? "bg-transparent" : profileSettings ? "active" : ""
-                                } >
+                                <NavLink onClick={() => setProfileSettings(!profileSettings)} className={`cursor-pointer relative my-auto text-[22px] w-8 h-8 rounded-full ${profileSettings ? 'bg-secondary text-white' : 'bg-transparent text-black'
+                                    } flex justify-center items-center`} >
                                     <BsPerson />
                                     {profileSettings &&
                                         <ul className="absolute right-0 top-[-190px] bg-black/80 text-[#FAFAFA] pt-[18px] pr-[12px] pb-[10px] pl-[20px] w-[214px] text-sm leading-[21px] rounded-[4px] border border-slate-300 flex flex-col gap-[13px]">
