@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <nav className="sticky top-0 z-50 pt-[21px] md:pt-[40px] pb-[15px] bg-white border-b border-slate-300">
-            <div className="max-w-container px-4 md:px-0 mx-auto relative text-sm">
+            <div className="max-w-container px-4 lg:px-0 mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     <div id='logo-img' className="flex items-center flex-shrink-0">
                         <Link to=''><img className='mr-2' src={logo} alt="logo" /></Link>
@@ -44,8 +44,9 @@ const Navbar = () => {
                             <CiSearch className='text-2xl absolute right-[7px] top-[50%] -translate-y-[50%]' />
                         </div>
                         <div className="flex gap-4">
-                            <NavLink to='wishlist' className='my-auto text-[26px]'>
+                            <NavLink to='wishlist' className='relative my-auto text-[26px]'>
                                 <IoIosHeartEmpty />
+                                <div className="absolute top-[-4px] right-[-4px] w-4 h-4 rounded-full bg-secondary text-xs flex justify-center items-center text-white">4</div>
                             </NavLink>
                             <NavLink to='cart' className='my-auto text-[26px] relative'>
                                 <IoCartOutline />
@@ -94,8 +95,9 @@ const Navbar = () => {
                                 <CiSearch className='text-2xl absolute right-[7px] top-[50%] -translate-y-[50%]' />
                             </div>
                             <div className="flex gap-3">
-                                <NavLink to='wishlist' className='my-auto text-[26px]'>
+                                <NavLink to='wishlist' className='relative my-auto text-[26px]'>
                                     <IoIosHeartEmpty />
+                                    <div className="absolute top-[-4px] right-[-4px] w-4 h-4 rounded-full bg-secondary text-xs flex justify-center items-center text-white">4</div>
                                 </NavLink>
                                 <NavLink to='cart' className='my-auto text-[26px] relative'>
                                     <IoCartOutline />
