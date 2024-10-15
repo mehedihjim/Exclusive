@@ -28,7 +28,7 @@ export const bannerData = [
     },
 ];
 
-export const featuresProduct = [
+export const products = [
     {
         image: product,
         name: "HAVIT HV-G92 Gamepad",

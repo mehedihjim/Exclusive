@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <nav className="sticky top-0 z-50 pt-[21px] md:pt-[40px] pb-[15px] bg-white border-b border-slate-300">
-            <div className="max-w-container px-4 mx-auto relative text-sm">
+            <div className="max-w-container px-4 md:px-0 mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     <div id='logo-img' className="flex items-center flex-shrink-0">
                         <Link to=''><img className='mr-2' src={logo} alt="logo" /></Link>
