@@ -1,47 +1,6 @@
 import banner from '../assets/Frame 560.png'
 import product from '../assets/Product.png'
 
-import { PiDeviceMobileSpeakerThin } from "react-icons/pi";
-
-
-export const CategoryList = [
-    {
-        icon: PiDeviceMobileSpeakerThin,
-        link: '',
-        name: 'Phone'
-    },
-    {
-        icon: 'PiDeviceMobileSpeakerThin',
-        link: '',
-        name: 'Computers'
-    },
-    {
-        icon: 'PiDeviceMobileSpeakerThin',
-        link: '',
-        name: 'SmartWatch'
-    },
-    {
-        icon: 'PiDeviceMobileSpeakerThin',
-        link: '',
-        name: 'Camera'
-    },
-    {
-        icon: 'PiDeviceMobileSpeakerThin',
-        link: '',
-        name: 'Headphones'
-    },
-    {
-        icon: 'PiDeviceMobileSpeakerThin',
-        link: '',
-        name: 'Gaming'
-    },
-    {
-        icon: 'PiDeviceMobileSpeakerThin',
-        link: '',
-        name: 'Fashion'
-    },
-]
-
 export const bannerData = [
     {
         image: banner,
