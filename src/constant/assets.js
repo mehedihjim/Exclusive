@@ -1,5 +1,13 @@
 import banner from '../assets/Frame 560.png'
 import product from '../assets/Product.png'
+import CategoryList from '../components/CategoryList';
+
+import { PiBabyThin, PiDeviceMobileSpeakerThin, PiEyeglassesThin } from 'react-icons/pi';
+import { PiComputerTowerLight } from "react-icons/pi";
+import { PiWatchThin } from "react-icons/pi";
+import { PiCameraLight } from "react-icons/pi";
+import { CiHeadphones } from "react-icons/ci";
+import { PiGameControllerThin } from "react-icons/pi";
 
 export const bannerData = [
     {
@@ -25,6 +33,49 @@ export const bannerData = [
     {
         image: banner,
         link: "about",
+    },
+];
+
+export const categorySlide = [
+    {
+        name: 'Phone',
+        link: "about",
+        icon: PiDeviceMobileSpeakerThin,
+    },
+    {
+        name: 'Computers',
+        link: "about",
+        icon: PiComputerTowerLight,
+    },
+    {
+        name: 'Watches',
+        link: "about",
+        icon: PiWatchThin,
+    },
+    {
+        name: 'Camera',
+        link: "about",
+        icon: PiCameraLight,
+    },
+    {
+        name: 'Headphones',
+        link: "about",
+        icon: CiHeadphones,
+    },
+    {
+        name: 'Gaming',
+        link: "about",
+        icon: PiGameControllerThin,
+    },
+    {
+        name: 'Fashion',
+        link: "about",
+        icon: PiEyeglassesThin,
+    },
+    {
+        name: 'Kids',
+        link: "about",
+        icon: PiBabyThin,
     },
 ];
 
