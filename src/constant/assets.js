@@ -94,7 +94,9 @@ export const featuresProduct = [
         price: '$160',
         discountPrice: '$120',
         discountPercent: '40%',
-        totalReviews: '(98)'
+        totalReviews: '(98)',
+        bestSelling: true,
+        sale: true
     },
     {
         image: product,
@@ -102,7 +104,116 @@ export const featuresProduct = [
         price: '$160',
         discountPrice: '$120',
         discountPercent: '40%',
+        totalReviews: '(98)',
+        sale: true
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
         totalReviews: '(98)'
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)',
+        sale: true
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)',
+        sale: true
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)'
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)',
+        bestSelling: true,
+        sale: true
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)',
+        bestSelling: true,
+        sale: true
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)',
+        bestSelling: true
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)',
+        bestSelling: true
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)',
+        bestSelling: true
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)',
+        sale: true
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)',
+        bestSelling: true
+    },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)',
+        sale: true
     },
     {
         image: product,
@@ -126,55 +237,8 @@ export const featuresProduct = [
         price: '$160',
         discountPrice: '$120',
         discountPercent: '40%',
-        totalReviews: '(98)'
-    },
-    {
-        image: product,
-        name: "S-Series Comfort Chair ",
-        price: '$160',
-        discountPrice: '$120',
-        discountPercent: '40%',
-        totalReviews: '(98)'
-    },
-    {
-        image: product,
-        name: "S-Series Comfort Chair ",
-        price: '$160',
-        discountPrice: '$120',
-        discountPercent: '40%',
-        totalReviews: '(98)'
-    },
-    {
-        image: product,
-        name: "S-Series Comfort Chair ",
-        price: '$160',
-        discountPrice: '$120',
-        discountPercent: '40%',
-        totalReviews: '(98)'
-    },
-    {
-        image: product,
-        name: "S-Series Comfort Chair ",
-        price: '$160',
-        discountPrice: '$120',
-        discountPercent: '40%',
-        totalReviews: '(98)'
-    },
-    {
-        image: product,
-        name: "S-Series Comfort Chair ",
-        price: '$160',
-        discountPrice: '$120',
-        discountPercent: '40%',
-        totalReviews: '(98)'
-    },
-    {
-        image: product,
-        name: "S-Series Comfort Chair ",
-        price: '$160',
-        discountPrice: '$120',
-        discountPercent: '40%',
-        totalReviews: '(98)'
+        totalReviews: '(98)',
+        bestSelling: true
     },
 ];
 

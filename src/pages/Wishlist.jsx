@@ -18,7 +18,7 @@ const Wishlist = () => {
                             <div className="w-[270px] rounded-[4px] overflow-hidden cursor-pointer">
                                 <div className="relative mb-4 group">
                                     <img src={item.image} alt="" className='w-full' />
-                                    <div className="cursor-pointer w-full h-10 bg-black absolute bottom-0 left-0 text-white flex gap-2 justify-center items-center text-xs leading-[18px] rounded-b-[4px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"><IoCartOutline className='text-2xl' />Add To Cart</div>
+                                    <button className="cursor-pointer w-full h-10 bg-black absolute bottom-0 left-0 text-white flex gap-2 justify-center items-center text-xs leading-[18px] rounded-b-[4px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"><IoCartOutline className='text-2xl' />Add To Cart</button>
                                 </div>
                                 <div className="text-base font-medium leading-6">
                                     <Link to='' className='mb-2'>{item.name}</Link>
