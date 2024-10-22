@@ -22,9 +22,9 @@ const BestSelling = () => {
 
     return (
         <section className='w-full'>
-            <div className="max-w-container mx-auto border-b border-slate-300 pb-8 md:pb-[140px]">
+            <div className="max-w-container mx-auto border-b border-slate-300 pb-8 md:pb-[80px]">
                 <div className="mb-10 md:mb-[40px] flex justify-between items-end gap-[87px]">
-                    <CmnHeading title={'Today’s'} mainTitle={'Flash Sales'} />
+                    <CmnHeading title={'This Month'} mainTitle={'Best Selling Products'} />
                     <div>
                         {showAll ? (
                             <div className="flex justify-center">

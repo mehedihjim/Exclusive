@@ -83,7 +83,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p className='text-white/30 pt-4 border-t border-slate-900 flex gap-[6px] mt-[76px] justify-center'><FaRegCopyright className='my-auto' /> Copyright Rimel 2022. All right reserved</p>
+            <p className='text-white/30 pt-4 border-t border-slate-900 flex gap-[6px] mt-[76px] justify-center'><FaRegCopyright className='my-auto' /> Copyright 2022. All right reserved by MH Jim</p>
         </footer>
     )
 }
