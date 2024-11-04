@@ -275,4 +275,12 @@ export const wishlistProducts = [
         discountPercent: '40%',
         totalReviews: '(98)'
     },
+    {
+        image: product,
+        name: "S-Series Comfort Chair ",
+        price: '$160',
+        discountPrice: '$120',
+        discountPercent: '40%',
+        totalReviews: '(98)'
+    },
 ];
