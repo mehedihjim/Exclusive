@@ -5,6 +5,7 @@ import CategoryList from '../components/CategoryList'
 import BestSelling from '../components/BestSelling'
 import MusicalSale from '../components/MusicalSale'
 import OurProducts from '../components/OurProducts'
+import NewArrivals from '../components/NewArrivals'
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <BestSelling />
             <MusicalSale />
             <OurProducts />
+            <NewArrivals />
         </div>
     )
 }

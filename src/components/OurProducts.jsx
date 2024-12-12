@@ -32,8 +32,8 @@ const OurProducts = () => {
     };
 
     return (
-        <section className="w-full">
-            <div className="max-w-container mx-auto border-b border-slate-300 pb-8 md:pb-[59px]">
+        <section className="w-full pb-[140px]">
+            <div className="max-w-container mx-auto pb-8 md:pb-[59px]">
                 <div className="mb-10 md:mb-[40px]">
                     <CmnHeading title="Our Products" mainTitle="Explore Our Products" />
                 </div>
