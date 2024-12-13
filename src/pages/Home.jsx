@@ -6,6 +6,7 @@ import BestSelling from '../components/BestSelling'
 import MusicalSale from '../components/MusicalSale'
 import OurProducts from '../components/OurProducts'
 import NewArrivals from '../components/NewArrivals'
+import CustomerSupport from '../components/CustomerSupport'
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <MusicalSale />
             <OurProducts />
             <NewArrivals />
+            <CustomerSupport />
         </div>
     )
 }
