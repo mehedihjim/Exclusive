@@ -1,11 +1,11 @@
-const express = require("express")
-const router = express.Router()
-const auth = require("./auth")
+const express = require("express");
+const router = express.Router();
+const api = require("./api");
 
 const baseurl = process.env.BASE_URL;
 
-router.use(baseurl, auth);
+router.use(baseurl, api);
 
-// console.log(baseurl, auth)
+// console.log("Base URL:", baseurl);
 
-module.exports = router
+module.exports = router;
