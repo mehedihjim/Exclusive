@@ -1,5 +1,5 @@
 function regController(req, res) {
-    res.send("Registration")
+    res.send(req.body)
 }
 
 function loginController(req, res) {
