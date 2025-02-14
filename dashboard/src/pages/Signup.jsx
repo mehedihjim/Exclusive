@@ -8,7 +8,7 @@ const Signup = () => {
             <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
                 <div className="max-w-md w-full bg-white rounded-xl shadow-lg p-8">
                     <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-                        Admin Login
+                        Become an Admin
                     </h2>
                     <form className="space-y-4">
                         <div>
@@ -40,18 +40,6 @@ const Signup = () => {
                                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition-all"
                                 placeholder="••••••••"
                             />
-                        </div>
-                        <div className="flex items-center justify-between">
-                            <label className="flex items-center">
-                                <input
-                                    type="checkbox"
-                                    className="rounded border-gray-300 text-red-600 focus:ring-red-500"
-                                />
-                                <span className="ml-2 text-sm text-gray-600">Remember me</span>
-                            </label>
-                            <a href="#" className="text-sm text-red-600 hover:text-red-500">
-                                Forgot password?
-                            </a>
                         </div>
                         <button className="w-full bg-red-600 hover:bg-red-700 text-white font-medium py-2.5 rounded-lg transition-colors">
                             Sign Up
